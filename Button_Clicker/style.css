@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 80%;
+    margin: 0 auto;
+    min-width: 550px;
+}
+
+#search{
+    width: 40%;
+    height: 30px;
+}
+
+.nav_container{
+    background-color: rgb(192, 192, 192);
+    padding: 20px 30px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.login{
+    background-color: dodgerblue;
+}
+
+.login,
+.like,
+.add{
+    width: 75px;
+    height: 25px;
+    box-shadow: 3px 3px 0px black;
+    
+}
+
+.container{
+    margin-top: 25px;
+    display:flex;
+    justify-content: space-evenly;
+}
+.definitions{
+    width: 75%
+}
+
+.dojo{
+    height: 150px;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.definition{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 150px;
+    margin-bottom: 25px;
+}
+
+.word{
+    width: 25%;
+    margin-right: 20px;
+}
+
+.like{
+    background-color: sandybrown;
+    margin-top: 10px;
+}
+
+.add{
+    width: 80%;
+    background-color:rgb(123, 180, 109);
+    margin-top: 5px;
+}
+
+span{
+    color: rgb(27, 100, 173);
+    text-decoration: underline;
+}
+
+button:hover{
+    cursor:pointer;
+}
+
+
+.definition,
+.dojo{
+    border: solid 2px black;
+}
+
+
+
